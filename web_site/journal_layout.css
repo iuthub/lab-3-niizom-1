@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+/*  I can't get background image that you gave me !!! */
+body{ 
+    background-image: url("https://img1.goodfon.com/wallpaper/nbig/d/cd/tekstury-siniy-blue-uzory.jpg");
+}
+
+.container{
+    border: 5px solid white;
+    background-color: white;
+    margin: 0 10%;
+}
+
+header{
+    background-color: #A8F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header h2 {
+    font-size: 14px;
+}
+
+
+#spatulas, #cookie{
+    border: 4px solid #C2E9E9;
+    background-color: #E8FBFB;
+    padding: 5px;
+    overflow: auto;
+    margin: 10px;
+}
+
+#spatulas h2 span, #cookie h2 span{
+    border-bottom: 2px dashed blue;
+}
+
+#spatulas img{
+    float: right;
+}
+
+#cookie img{
+    float: right;
+}
+
+.wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sidebar{
+    border: 4px solid #A8F0F0;
+    background-color: #E8FBFB;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
